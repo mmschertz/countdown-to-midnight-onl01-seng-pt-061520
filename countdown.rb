@@ -10,4 +10,4 @@ end
 
 
 countdown_with_sleep(int)
-int.
+int(5.seconds)
