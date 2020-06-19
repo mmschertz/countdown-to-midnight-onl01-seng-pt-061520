@@ -8,5 +8,10 @@ def countdown(int)
  return "HAPPY NEW YEAR!"
 end
 
-
-sleep 5
+def countdown_with_sleep(int)
+ until int == 0 
+  puts "#{int} SECOND(S)!"
+  int -= 1 
+ end
+ return "HAPPY NEW YEAR!"
+end
